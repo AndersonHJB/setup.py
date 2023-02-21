@@ -13,7 +13,7 @@
 
 > In short, `setup.py` files can be daunting to approach, when first starting out — even Guido has been heard saying, "everyone cargo cults thems". It's true — so, I want this repo to be the best place to copy–paste from :)
 
-[Check out the example!](./setup.py)
+[Check out the example!][an example setup.py]
 
 Installation
 -----
@@ -23,18 +23,22 @@ cd your_project
 
 # Download the setup.py file:
 #  download with wget
-wget https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py -O setup.py
+wget https://raw.githubusercontent.com/AndersonHJB/setup.py/main/setup.py -O setup.py
 
 #  download with curl
-curl -O https://raw.githubusercontent.com/navdeep-G/setup.py/master/setup.py
+curl -O https://raw.githubusercontent.com/AndersonHJB/setup.py/main/setup.py
 ```
 
 To Do
 -----
 
--   Tests via `$ setup.py test` (if it's concise).
+-   通过 `$ setup.py test` 运行测试（如果测试脚本很简洁的话）。
 
-Pull requests are encouraged!
+> Tests via `$ setup.py test` (if it's concise).
+
+欢迎提交拉取请求！
+
+> Pull requests are encouraged!
 
 More Resources
 --------------
@@ -47,13 +51,15 @@ More Resources
 License
 -------
 
-This is free and unencumbered software released into the public domain.
+这是一款自由和无拘束的软件，已发布到公共领域。
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any means.
+> This is free and unencumbered software released into the public domain.
 
-[an example setup.py]: https://github.com/navdeep-G/setup.py/blob/master/setup.py
+任何人都可以自由复制、修改、发布、使用、编译、销售或分发该软件，无论是以源代码形式还是编译后的二进制形式，无论是用于商业或非商业目的，均可通过任何手段实现。
+
+> Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+
+[an example setup.py]: https://github.com/AndersonHJB/setup.py/blob/main/setup.py
 [PyPi]: https://docs.python.org/3/distutils/packageindex.html
 [Twine]: https://pypi.python.org/pypi/twine
 [image]: https://farm1.staticflickr.com/628/33173824932_58add34581_k_d.jpg
