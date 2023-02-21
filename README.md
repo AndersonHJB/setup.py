@@ -5,7 +5,7 @@
 
 > This repo exists to provide [an example setup.py] file, that can be used to bootstrap your next Python project. It includes some advanced patterns and best practices for `setup.py`, as well as some commented–out nice–to–haves.
 
-例如，这个 `setup.py` 提供了一个 `$ python setup.py upload` 命令，它创建了一个 *universal wheel*（和 *sdist*），并使用 [Twine] 将您的包上传到 [PyPi]，而无需烦人的 `setup.cfg` 文件。它还自动创建/上传一个新的 git 标签。
+例如，这个 `setup.py` 提供了一个 `$ python setup.py upload` 命令，它创建了一个 universal wheel（和 *sdist*），并使用 [Twine] 将您的包上传到 [PyPi]，而无需烦人的 `setup.cfg` 文件。它还自动创建/上传一个新的 git 标签。
 
 > For example, this `setup.py` provides a `$ python setup.py upload` command, which creates a *universal wheel* (and *sdist*) and uploads your package to [PyPi] using [Twine], without the need for an annoying `setup.cfg` file. It also creates/uploads a new git tag, automatically.
 
@@ -13,7 +13,7 @@
 
 > In short, `setup.py` files can be daunting to approach, when first starting out — even Guido has been heard saying, "everyone cargo cults thems". It's true — so, I want this repo to be the best place to copy–paste from :)
 
-[Check out the example!][./setup.py]
+[Check out the example!](./setup.py)
 
 Installation
 -----
